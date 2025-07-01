@@ -1,0 +1,1086 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700&family=Sriracha&display=swap');
+
+body {
+    font-family: 'Inter';
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header img {
+    width: 150px;
+    padding: 20px 0px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+nav {
+
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 20px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+#minhaconta {
+    padding: 10px 0px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+#minhaconta a:hover {
+    background-color: #FF7301;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: normal;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #f5f5f5;
+    padding: 0px;
+    margin: 0px;
+}
+
+.carrossel {
+    width: 100%;
+    height: 100vh;
+}
+
+.carrossel img {
+    width: 100%;
+    padding: 0px;
+}
+
+.carrossel-2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.carrossel-2 img {
+    width: 100%;
+    padding: 0px;
+}
+
+#main {
+    margin-top: 30px;
+}
+
+.formatacaoh1 h1 {
+    color: #FF7301;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'poppins';
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.botao-home {
+    margin: 0px;
+}
+
+.botao-home button {
+    color: white;
+    padding: 10px 30px;
+    background-color: #FF7301;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 0px;
+    cursor: pointer;
+
+}
+
+.botao-home a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0px;
+
+}
+
+.botao-home button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.inside-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #F6F6F6;
+    border-radius: 20px;
+    margin: 40px 10px;
+    height: 370px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(115, 115, 115, 0.604);
+    text-align: center;
+}
+
+.formabox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #F6F6F6;
+    border-radius: 20px;
+    margin: 40px 10px;
+    height: 350px;
+    width: 200px;
+    box-shadow: 0px 0px 10px 0px rgba(115, 115, 115, 0.604);
+    text-align: center;
+}
+
+.inside-box img {
+    width: 64px;
+}
+
+.formabox h3 {
+    color: #FF7301;
+    margin: 0;
+}
+
+.formabox img {
+    width: 150px;
+}
+
+.formabox {
+    width: auto;
+}
+
+#carrossel-oculto {
+    display: none;
+}
+
+.box,
+h3,
+p,
+img,
+button {
+    padding: 5px;
+}
+
+.box,
+p {
+    font-size: 15px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    font-family: 'Inter';
+    margin-top: auto;
+}
+
+footer img {
+    width: 150px;
+    margin-top: 40px;
+}
+
+#box-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    text-align: left;
+    margin: 0px 170px;
+    gap: 40px;
+}
+
+#box-3 h2 {
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+#box-3 ol {
+    list-style: none;
+    padding: 0;
+}
+
+#box-3 ol a {
+    text-decoration: none;
+    color: white;
+}
+
+#box-3 img {
+    margin-right: 10px;
+    width: 30px
+}
+
+li {
+    font-size: 14px;
+}
+
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #303030;
+}
+
+.listas h2 {
+    border-bottom: 1px solid #313131;
+    padding-bottom: 6px;
+    margin: 0px;
+}
+
+.listas img {
+    margin: 0px;
+}
+
+#logo {
+    margin-left: 150px;
+}
+
+/*banner js*/
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/**           *************************       PÁGINA PLANOS      **********************       ***/
+.propaganda-planos {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+}
+
+.banner-planos img {
+    width: 100%;
+}
+
+.garanta-sua-tag {
+    background-color: #e9e9e9;
+    padding: 10px 150px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: 'Poppins';
+
+}
+
+.garanta-sua-tag h1 {
+    text-align: center;
+    margin-left: 0px;
+    color: #FF7301;
+    font-size: 25px;
+}
+
+.garanta-sua-tag-img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.garanta-sua-tag-img img {
+    min-width: 50%;
+    max-width: 50%;
+}
+
+.parte-textual-banner {
+    margin-top: 50px;
+    font-family: 'Poppins';
+
+}
+
+.parte-textual-banner p,
+h1,
+button {
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 10px;
+}
+
+.parte-textual-banner h1 {
+    color: #000000;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 200px;
+
+}
+
+.parte-textual-banner button {
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.parte-textual-banner p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#h1bold {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#ptamanho {
+    font-size: 17px;
+}
+
+#todasascards {
+    display: flex;
+    flex-direction: row;
+    background-color: #e9e9e9;
+    justify-content: center;
+
+}
+
+#botao-quero-aproveitar {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 17px 30px;
+    border: none;
+    background-color: #FF7301;
+    color: #ffffff;
+    font-family: 'Poppins';
+    cursor: pointer;
+
+}
+
+#botao-quero-aproveitar:hover {
+    background-color: #000000;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.cards {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #FF7301;
+    box-shadow: 0px 0px 10px 0px rgba(115, 115, 115, 0.604);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 270px;
+    height: 430px;
+    margin: 40px 20px 30px 20px;
+
+}
+
+#recarregar {
+    color: #FF7301;
+    font-size: 12px;
+}
+
+.card-2 .cards {
+    border: 1px solid #7f7f7f
+}
+
+.miolo-planos {
+    background-color: #e9e9e9;
+}
+
+.miolo-planos h1 {
+    color: #000000;
+    text-align: center;
+    margin-left: 0px;
+    font-family: 'Poppins';
+    font-size: 25px;
+}
+
+.card-topo {
+    border-bottom: 1px solid #FF7301;
+}
+
+#linhacinza {
+    border-bottom: 1px solid #7f7f7f;
+}
+
+.alinhamento-topo {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    margin: 0px;
+}
+
+.mais-vendido {
+    margin-left: 60px;
+}
+
+.mais-vendido p {
+    font-size: 10px;
+    background-color: #FF7301;
+    color: white;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 20px 0px 0px 20px;
+}
+
+.card-info p {
+    text-align: left;
+    margin: 0px;
+}
+
+#espacobotao1 {
+    margin-bottom: 25px;
+}
+
+.ass-frete {
+    display: flex;
+    flex-direction: row;
+}
+
+.ass-frete p {
+    background-color: #303030;
+    color: white;
+    font-size: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+}
+
+.lista-planos img {
+    padding: 0px;
+}
+
+.lista-planos ul {
+    padding: 0px;
+}
+
+.lista-planos ul li {
+    list-style-type: none;
+}
+
+.botao-plano,
+.botao-plano2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-plano button {
+    background-color: #FF7301;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin-left: 0px;
+    padding: 10px 70px;
+    font-family: 'poppins';
+    cursor: pointer;
+
+
+}
+
+.botao-plano2 button {
+    border: 1px solid #303030;
+    color: #303030;
+    background-color: white;
+    margin-top: 85px;
+    margin-left: 0px;
+    padding: 10px 70px;
+    border-radius: 15px;
+    font-family: 'poppins';
+    cursor: pointer;
+}
+
+.botao-plano button:hover {
+    background-color: #000000;
+    color: white;
+    border: none;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.botao-plano2 button:hover {
+    background-color: #b1b1b1;
+    color: white;
+    border: none;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+#off {
+    font-weight: bold;
+}
+
+#oferta {
+    color: #606060;
+    font-weight: normal;
+    font-size: 13px;
+
+}
+
+#preco {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#atesextomes {
+    font-size: 12px;
+}
+
+.como-ativar {
+    background-color: #e9e9e9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.como-ativar {
+    display: flex;
+    gap: 10px;
+    /* espaço entre as imagens */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* permite quebrar linha se precisar */
+}
+
+.como-ativar img {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transition: transform 0.3s ease;
+    /* transição suave */
+    will-change: transform;
+}
+
+.como-ativar img:hover {
+    transform: scale(1.1);
+    /* aumenta 10% */
+    z-index: 1;
+}
+
+/**************************************************    CONTATO    ************************************************************/
+.pagina-contato {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.formulario-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#imagem-fundo {
+    flex: 1; /* faz o conteúdo crescer e empurrar o footer */
+    background-image: url("../img/Frame 21.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 0;
+}
+
+.cabecalho-contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.cabecalho-contato a {
+    color: white;
+}
+
+#minhaconta-contato {
+    padding: 10px 0px;
+    background-color: #000000;
+    border-radius: 5px;
+    margin: 0px;
+    color: white;
+}
+
+#minhaconta-contato a {
+    color: white;
+}
+
+#entre-em-ctt-contato h1 {
+    font-family: 'Poppins';
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 0px;
+    
+}
+
+#entre-em-ctt-contato p {
+    font-size: 15px;
+    font-family: 'Poppins';
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#entre-em-ctt-contato {
+    margin-bottom: 40px;
+}
+
+.formulario {
+    background-color: #fbfbfb;
+    width: 50%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: 'Inter';
+    color: #414141;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(115, 115, 115, 0.604);
+    margin-bottom: 50px;
+}
+
+input {
+    border-radius: 50px;
+    padding: 8px;
+    border: 1px solid #808080;
+    margin-bottom: 10px;
+}
+
+.paragrafo-contato p {
+    text-align: left;
+    margin: 0px;
+    padding: 7px 0px;
+}
+
+.div-left {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div-right {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div-right input {
+    width: 40%;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: auto;
+    min-height: 150px;
+    max-height: 300px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+}
+
+#botao-preto {
+    display: flex;
+    justify-content: center;
+}
+
+#botao-preto button {
+    padding: 10px 15px;
+    background-color: #000000;
+    color: white;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 0px;
+    
+}
+
+#botao-preto button:hover {
+    background-color: #FF7301;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+#botao-env-arquivo button {
+    color: #FF7301;
+    background-color: white;
+    border: 1px solid #FF7301;
+    border-radius: 50px;
+    font-family: 'poppins';
+    padding: 10px 15px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+#botao-env-arquivo button:hover {
+    background-color: #FF7301;
+    color: white;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+#envoltorio {
+    border: 1px dashed #808080;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+/*************************************                    LOGIN                      ******************************************/
+#login {
+    background-color: #0c0c0c;
+    height: 100vh;
+    
+}
+
+.imagem-login img {
+    width: 450px;
+    margin-right: 180px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#entre-em-ctt {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 70px;
+}
+
+#entre-em-ctt h1 {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.link-login {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 12px;
+    font-family: 'poppins';
+    width: 130px;
+}
+
+#botao-entrar-login {
+    background-color:#FF7301;
+    color: white;
+    margin-left: 0px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'poppins';
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#botao-entrar-login:hover {
+    background-color:#1e1e1e;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+#entre-em-ctt input {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    
+}
+#entre-em-ctt input::placeholder {
+    color: rgb(255, 255, 255); 
+    font-size: 15px;
+    font-family: 'poppins';
+  }
+
+#criar-conta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#botao-criar-conta {
+    background-color: #333437;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-family: 'poppins';
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+#botao-criar-conta:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#entre-em-ctt h1 {
+    font-family: 'Poppins';
+    color: white;
+    font-size: 25px;
+    text-align: start;
+    margin-left: 0px;
+}
+
+/**************************************************   MEDIA QUERY   ************************************************************/
+@media (max-width: 768px) {
+
+    header img {
+        margin: 0 auto;
+        width: 120px;
+        border-bottom: 0.5px solid #b4b4b4;
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    nav {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .box {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .inside-box,
+    .formabox {
+        width: 75%;
+        margin: 15px auto;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .carrossel {
+        height: auto;
+    }
+
+    .carrossel img {
+        display: none;
+    }
+
+    #carrossel-oculto {
+        display: flex;
+        flex-direction: column;
+        background-image: url("../img/Frame 21.png");
+        background-size: cover;
+      
+        color: #ffffff;
+        padding: 0px 20px;
+        text-align: center;
+        box-shadow: 0px 5px 10px 0px rgba(115, 115, 115, 0.604);
+        
+    }
+
+    #carrossel-oculto h1 {
+        color: #ffffff;
+        margin-top: 50px;
+        font-family: 'poppins';
+        margin-left: 0px;
+        text-align: center;
+    
+    }
+
+    #carrossel-2 img {
+        display: none;
+    }
+
+    #carrossel-oculto button {
+        background-color: #000000;
+        padding: 10px;
+        border-radius: 50px;
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        border: none;
+        color: white;
+        font-family: 'poppins';
+        font-size: 15px;
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        margin: 0px auto;
+        padding: 20px;
+    }
+
+    #box-3 {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0px 30px;
+    }
+
+    .slideshow-container,
+    .dot {
+        display: none;
+    }
+}
